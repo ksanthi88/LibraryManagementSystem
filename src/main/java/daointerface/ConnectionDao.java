@@ -37,7 +37,8 @@ return connection;
             }
 
         }catch (Exception e) {
-            // TODO: handle exception
+            System.out.println(e);
+            e.printStackTrace();
         }
 
     }
